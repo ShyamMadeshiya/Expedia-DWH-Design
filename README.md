@@ -24,37 +24,22 @@ The data warehouse is designed to support reporting and analysis of booking perf
 ## 📁 Repository Structure
 
 ```text
-expedia-data-warehouse-design/
+Expedia-DWH-Design/
 │
 ├── README.md
 │
-├── ExpediaDWH.png
+├── 01_Docs/
+│   └── DWH_Data_Modelling_Class_2.pdf
 │
-├── docs/
-│   └── Expedia_Design_Reference.pdf
-│
-└── sql/
-    ├── 01_search_to_booking_conversion.sql
-    ├── 02_click_through_rate.sql
-    ├── 03_gross_booking_value.sql
-    ├── 04_net_revenue.sql
-    ├── 05_average_selling_price.sql
-    ├── 06_cancellation_rate.sql
-    ├── 07_refund_rate.sql
-    ├── 08_ancillary_attachment_rate.sql
-    ├── 09_take_rate_percentage.sql
-    ├── 10_repeat_customer_rate.sql
-    └── 11_channel_performance.sql
+└── 02_Architecture/
+    └── ExpediaDWH.png
 ```
 
-**File descriptions:**
+### 📄 File Description
 
-- `README.md`: Project overview, architecture, business metrics, and documentation.
-- `ExpediaDWH.png`: Final data warehouse entity relationship diagram.
-- `docs/`: Reference documentation used during the design process.
-- `sql/`: SQL implementations for the business metrics covered in the project.
-
-*This structure is a recommended organization. Add the PDF and SQL files only after placing the corresponding files in your repository.*
+- **README.md** — Provides the project overview, objectives, data architecture, fact and dimension tables, and business metrics.
+- **01_Docs/DWH_Data_Modelling_Class_2.pdf** — Contains the reference documentation for the Expedia data warehouse design, table definitions, relationships, and SQL queries for business metrics.
+- **02_Architecture/ExpediaDWH.png** — Contains the final Expedia data warehouse ER diagram, illustrating tables, attributes, and relationships between entities.
 
 ## 🏗️ Data Architecture (Star Schema)
 
